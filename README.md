@@ -179,8 +179,9 @@ A continuación, se detalla el estado de cada componente:
 - Generación de recomendaciones personalizadas
 - Documentación detallada de los endpoints y ejemplos de uso.
 
-- Chatbot de Asesoramiento (En Proceso):
-Actualmente, se encuentra en desarrollo el chatbot de asesoramiento, el cual estará integrado en la página web. Este chatbot tendrá como objetivo guiar a los usuarios en el uso de la plataforma, responder preguntas frecuentes y proporcionar recomendaciones personalizadas basadas en los datos analizados. Aunque aún está en fase de implementación, se espera que esté operativo en las próximos dias.
+- Chatbot de Asesoramiento:
+  
+Actualmente, nos encontramos en la fase de implementación del Chatbot de Asesoramiento, el cual será integrado directamente en la página web de la plataforma. Este chatbot ha sido diseñado con el propósito de brindar una experiencia interactiva y personalizada a los usuarios, facilitando su navegación y maximizando el aprovechamiento de las herramientas disponibles.
 
 ### Próximos Pasos
 
@@ -199,11 +200,12 @@ A. Integración del proyecto en una página web
    - **Backend**: FastAPI (para el chatbot y la API de análisis de datos).
    - **Comunicación**: Laravel se comunicará con FastAPI mediante solicitudes HTTP (RESTful API).
 
-B. Creacion de un Chatbot 
+B. Chatbot 
+- Python 
+- NLTK
 - Scikit-learn
-- SpaCy
-- Python
-- FastAPI
+- TensorFlow/Keras
+- Entre otros
     
 ## 7.Repositorios
 
