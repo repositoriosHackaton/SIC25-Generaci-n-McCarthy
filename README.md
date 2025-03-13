@@ -37,8 +37,17 @@ C- Indicadores de Depresión: Información sobre métricas relacionadas con el b
 
 Estos conjuntos de datos se encuentran en el directorio `/app/db/` de la aplicación:
 - `StudentPerformanceFactors.csv` - [https://www.kaggle.com/datasets/lainguyn123/student-performance-factors](https://www.kaggle.com/datasets/lainguyn123/student-performance-factors)
+  
+![image](https://github.com/user-attachments/assets/29a7ba18-d4a4-424e-a204-81da479cd7d6)
+
 - `ExamScore.csv` [https://www.kaggle.com/datasets/kwadwoofosu/predict-test-scores-of-students](https://www.kaggle.com/datasets/kwadwoofosu/predict-test-scores-of-students)
+  
+![image](https://github.com/user-attachments/assets/75fc1248-b29e-4cb1-a862-4c8da9c82a19)
+
 - `StudentDepression.csv` [https://www.kaggle.com/datasets/hopesb/student-depression-dataset](https://www.kaggle.com/datasets/hopesb/student-depression-dataset)
+  
+![image](https://github.com/user-attachments/assets/4c645a2f-d42d-4298-b5dc-053f9f6dab61)
+
 
   
 
@@ -142,6 +151,9 @@ La API ofrece varios endpoints de predicción, cada uno especializado en un aspe
 
 Cada conjunto de datos (rendimiento, score, depresión) tiene su propio modelo y endpoints específicos.
 
+![image](https://github.com/user-attachments/assets/d522391c-ee54-45f4-901c-e6705680a1a7)
+
+
 ### G- Caso de uso principal: Asesoramiento Estudiantil
 
 El sistema se integra en departamentos de asesoramiento estudiantil para:
@@ -151,6 +163,11 @@ El sistema se integra en departamentos de asesoramiento estudiantil para:
 3. Monitorear la efectividad de intervenciones a lo largo del tiempo
 4. Apoyar decisiones basadas en datos para mejorar políticas educativas
 
+![image](https://github.com/user-attachments/assets/8d4de620-f588-4573-9123-0bd36a0d0f30)
+
+![image](https://github.com/user-attachments/assets/50ffb751-d815-4c53-bf83-1cad5f60b86b)
+
+
 ### H- Demostración: Módulo de Asesoramiento
 
 Se ha desarrollado un prototipo funcional utilizando Laravel que demuestra cómo integrar la API en un sistema existente. Este módulo muestra las principales funcionalidades:
@@ -158,6 +175,9 @@ Se ha desarrollado un prototipo funcional utilizando Laravel que demuestra cómo
 - Visualización de predicciones para asesores
 - Interfaz para ingreso de datos estudiantiles
 - Generación de recomendaciones personalizadas
+
+  ![image](https://github.com/user-attachments/assets/0551fa45-f309-4454-8b9b-ab7b002d3f72)
+
 
 ## 5.Estado del proyecto
 
@@ -200,12 +220,20 @@ A. Integración del proyecto en una página web
    - **Backend**: FastAPI (para el chatbot y la API de análisis de datos).
    - **Comunicación**: Laravel se comunicará con FastAPI mediante solicitudes HTTP (RESTful API).
 
+     ![image](https://github.com/user-attachments/assets/47f86f76-dcd9-4b37-8c1b-d9fa1ec44799)
+
+
 B. Chatbot 
 - Python 
 - NLTK
 - Scikit-learn
 - TensorFlow/Keras
 - Entre otros
+
+![image](https://github.com/user-attachments/assets/110dfe0c-db42-4ee5-87e3-228c61109164)
+
+![image](https://github.com/user-attachments/assets/8752cc17-d010-4406-ab58-ae6133c9d0bf)
+
     
 ## 7.Repositorios
 
